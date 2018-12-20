@@ -1,0 +1,43 @@
+git
+VCS version control system : all history of our code ex-school diary
+
+SCM Source code management: project making
+
+SVN 
+CVS
+entire project: MR(Mainstream repository) to versioning of code...checkup
+
+
+git is a distributed repo....push pull     distributed VCS
+
+.gitkeep
+
+create git repository
+git init  //local repo
+git status // red color to green color...tracking
+1.  git add . //to start adding and tracking
+git status //green color...tracked
+2.  git commit -m " "    // commit message is very important...clearly write about what changes you made.
+git config --list 
+git config --global user.email ""
+git config --global user.name ""
+git remote add origin url //to tell local repo where is original repo by specifying ur url.
+git remote -v
+3.  git push origin master //to push to mainstream repo
+
+create README.md file //to read down markup language
+create .gitignore file				//stuff i dont want to push to main repo....write file names or extensions to be ignored
+
+
+git clone url //to clone anyones url....
+
+collaborations:::
+git pull origin master 
+//resolve conflict manually
+
+open source project:::
+1.fork //fork from x R1...clone add commit push....changes are in my repo...pull request....verify then merge or decline
+2. do forking from git hub
+then everything as written........
+
+
